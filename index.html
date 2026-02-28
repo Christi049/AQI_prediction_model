@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AQI Forecast Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Air Quality Forecast Dashboard</h1>
+        <select id="citySelect">
+            <option value="">Select City</option>
+        </select>
+
+        <!-- Line Chart -->
+        <canvas id="aqiChart"></canvas>
+
+        <div id="aqiAdvice" class="statBox" style="margin-top:20px; background:#F0E7D5;">
+            <h2>Air Quality Advisory</h2>
+            <p id="adviceText">No spike detected.</p>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
