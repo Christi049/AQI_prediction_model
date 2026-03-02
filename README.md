@@ -107,7 +107,7 @@ Open `index.html` directly in your browser.
 
 ## 📸 Demo video link
 
-[link text](https://drive.google.com/file/d/1q3EMMqzP04QaIBtViu1fFMO7YglSW3Xc/view?usp=drive_link)
+[Demo video](https://drive.google.com/file/d/1q3EMMqzP04QaIBtViu1fFMO7YglSW3Xc/view?usp=drive_link)
 
 ## 🏗️ Architecture
 
@@ -163,4 +163,5 @@ Sends an AQI prompt to the LLM and returns health advisory text.
 [**Prediction model →**](https://colab.research.google.com/drive/1STjMNUOPjy_yUS8MbgJh_Ut1iPpw53QB?usp=sharing)
 
 [**View Live Demo →**](https://aqipredict2.netlify.app/)
+
 
